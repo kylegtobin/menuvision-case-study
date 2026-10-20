@@ -7,9 +7,9 @@ MenuVision is an iPhone app that turns a photo of any restaurant menu into a per
 This repo is the story, not the code. MenuVision is a commercial app and its code is private. Here you'll find the calls that shaped it, how I ran a team of AI agents to build it, and how a scan works.
 
 <p>
-  <img src="images/02-captioned.png" width="240" alt="A scanned menu with allergen, dislike and diet tags on each dish">
-  <img src="images/03-captioned.png" width="240" alt="A dish's likely ingredients with allergy and diet warnings">
-  <img src="images/04-captioned.png" width="240" alt="Tapping a menu term opens a plain-English explanation">
+  <img src="02-captioned.png" width="240" alt="A scanned menu with allergen, dislike and diet tags on each dish">
+  <img src="03-captioned.png" width="240" alt="A dish's likely ingredients with allergy and diet warnings">
+  <img src="04-captioned.png" width="240" alt="Tapping a menu term opens a plain-English explanation">
 </p>
 
 *Illustrative screens on a fictional menu. Always confirm with restaurant staff.*
@@ -65,11 +65,3 @@ Each one, with the situation and what I rejected, is in [DECISIONS.md](DECISIONS
 
 - **"Almost right" is a product decision, not a technical one.** The last few percent of allergy accuracy took as much work as the first 95, and deciding it was worth it was my call.
 - **Certainty is part of the answer.** "May contain" isn't a hedge. It tells you how we know.
-- **Independent review beats self-review.** Most serious bugs were found by an auditor with no stake in the code.
-- **Fix the class, not the example.** Every bug fixed only for the menu that exposed it came back on another menu.
-- **Defaults are where safety lives.** Most people never change a setting, so the default has to be the safe choice.
-
-## More
-
-- [ARCHITECTURE.md](ARCHITECTURE.md): how a scan works.
-- [kylegtobin.com](https://kylegtobin.com) · [LinkedIn](https://www.linkedin.com/in/kylegtobin/)
