@@ -2,7 +2,7 @@
 
 MenuVision is an iPhone app that turns a photo of any restaurant menu into a personal one: every dish with its likely ingredients, and warnings shaped by your allergies, diet and dislikes. It never calls a dish safe.
 
-**Status, October 2026:** launch candidate in TestFlight, App Store submission next. · [menuvisionapp.com](https://www.menuvisionapp.com) · [The film (1:49)](https://www.menuvisionapp.com/tour)
+**Status:** live on the App Store since November 2026. · [Get it on the App Store](https://apps.apple.com/us/app/menuvision/id6756634138) · [menuvisionapp.com](https://www.menuvisionapp.com) · [The film (1:49)](https://www.menuvisionapp.com/tour)
 
 This repo is the story, not the code. MenuVision is a commercial app and its code is private. Here you'll find the calls that shaped it, how I ran a team of AI agents to build it, and how a scan works.
 
